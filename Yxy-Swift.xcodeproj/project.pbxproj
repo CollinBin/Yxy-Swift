@@ -9,11 +9,12 @@
 /* Begin PBXBuildFile section */
 		075D0A0E1FF3B48900F54619 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 075D0A0D1FF3B48900F54619 /* AppDelegate.swift */; };
 		075D0A101FF3B48900F54619 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 075D0A0F1FF3B48900F54619 /* ViewController.swift */; };
-		075D0A131FF3B48900F54619 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 075D0A111FF3B48900F54619 /* Main.storyboard */; };
-		075D0A151FF3B48900F54619 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 075D0A141FF3B48900F54619 /* Assets.xcassets */; };
-		075D0A181FF3B48900F54619 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 075D0A161FF3B48900F54619 /* LaunchScreen.storyboard */; };
 		075D0A231FF3B48900F54619 /* Yxy_SwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 075D0A221FF3B48900F54619 /* Yxy_SwiftTests.swift */; };
 		075D0A2E1FF3B48900F54619 /* Yxy_SwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 075D0A2D1FF3B48900F54619 /* Yxy_SwiftUITests.swift */; };
+		075D0A461FF4973B00F54619 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 075D0A401FF4973B00F54619 /* LaunchScreen.storyboard */; };
+		075D0A471FF4973B00F54619 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 075D0A421FF4973B00F54619 /* Main.storyboard */; };
+		075D0A481FF4973B00F54619 /* YxyImages.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 075D0A441FF4973B00F54619 /* YxyImages.xcassets */; };
+		075D0A491FF4973B00F54619 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 075D0A451FF4973B00F54619 /* Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,16 +38,16 @@
 		075D0A0A1FF3B48900F54619 /* Yxy-Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Yxy-Swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		075D0A0D1FF3B48900F54619 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		075D0A0F1FF3B48900F54619 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		075D0A121FF3B48900F54619 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		075D0A141FF3B48900F54619 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		075D0A171FF3B48900F54619 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		075D0A191FF3B48900F54619 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		075D0A1E1FF3B48900F54619 /* Yxy-SwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Yxy-SwiftTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		075D0A221FF3B48900F54619 /* Yxy_SwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Yxy_SwiftTests.swift; sourceTree = "<group>"; };
 		075D0A241FF3B48900F54619 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		075D0A291FF3B48900F54619 /* Yxy-SwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Yxy-SwiftUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		075D0A2D1FF3B48900F54619 /* Yxy_SwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Yxy_SwiftUITests.swift; sourceTree = "<group>"; };
 		075D0A2F1FF3B48900F54619 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		075D0A411FF4973B00F54619 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		075D0A431FF4973B00F54619 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		075D0A441FF4973B00F54619 /* YxyImages.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = YxyImages.xcassets; sourceTree = "<group>"; };
+		075D0A451FF4973B00F54619 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,10 +100,7 @@
 			children = (
 				075D0A0D1FF3B48900F54619 /* AppDelegate.swift */,
 				075D0A0F1FF3B48900F54619 /* ViewController.swift */,
-				075D0A111FF3B48900F54619 /* Main.storyboard */,
-				075D0A141FF3B48900F54619 /* Assets.xcassets */,
-				075D0A161FF3B48900F54619 /* LaunchScreen.storyboard */,
-				075D0A191FF3B48900F54619 /* Info.plist */,
+				075D0A3F1FF4973B00F54619 /* SupportingFiles */,
 			);
 			path = "Yxy-Swift";
 			sourceTree = "<group>";
@@ -123,6 +121,17 @@
 				075D0A2F1FF3B48900F54619 /* Info.plist */,
 			);
 			path = "Yxy-SwiftUITests";
+			sourceTree = "<group>";
+		};
+		075D0A3F1FF4973B00F54619 /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				075D0A441FF4973B00F54619 /* YxyImages.xcassets */,
+				075D0A451FF4973B00F54619 /* Info.plist */,
+				075D0A401FF4973B00F54619 /* LaunchScreen.storyboard */,
+				075D0A421FF4973B00F54619 /* Main.storyboard */,
+			);
+			path = SupportingFiles;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,9 +241,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				075D0A181FF3B48900F54619 /* LaunchScreen.storyboard in Resources */,
-				075D0A151FF3B48900F54619 /* Assets.xcassets in Resources */,
-				075D0A131FF3B48900F54619 /* Main.storyboard in Resources */,
+				075D0A491FF4973B00F54619 /* Info.plist in Resources */,
+				075D0A461FF4973B00F54619 /* LaunchScreen.storyboard in Resources */,
+				075D0A471FF4973B00F54619 /* Main.storyboard in Resources */,
+				075D0A481FF4973B00F54619 /* YxyImages.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,20 +306,20 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		075D0A111FF3B48900F54619 /* Main.storyboard */ = {
+		075D0A401FF4973B00F54619 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				075D0A121FF3B48900F54619 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		075D0A161FF3B48900F54619 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				075D0A171FF3B48900F54619 /* Base */,
+				075D0A411FF4973B00F54619 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		075D0A421FF4973B00F54619 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				075D0A431FF4973B00F54619 /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -363,7 +373,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -414,7 +424,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -428,12 +438,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = KV396W2E95;
-				INFOPLIST_FILE = "Yxy-Swift/Info.plist";
+				INFOPLIST_FILE = "Yxy-Swift/SupportingFiles/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Drcuiyutao.Yxy-Swift";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -443,12 +454,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = KV396W2E95;
-				INFOPLIST_FILE = "Yxy-Swift/Info.plist";
+				INFOPLIST_FILE = "Yxy-Swift/SupportingFiles/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Drcuiyutao.Yxy-Swift";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
