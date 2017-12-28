@@ -7,13 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0709D0391FF4FFD900D59D8B /* YXYTarBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0709D0381FF4FFD900D59D8B /* YXYTarBarController.swift */; };
+		0709D0411FF508D000D59D8B /* YXYHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0709D0401FF508D000D59D8B /* YXYHomeViewController.swift */; };
+		0709D0431FF508E400D59D8B /* YXYDiscoverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0709D0421FF508E400D59D8B /* YXYDiscoverViewController.swift */; };
+		0709D0451FF5090E00D59D8B /* YXYRecordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0709D0441FF5090E00D59D8B /* YXYRecordViewController.swift */; };
+		0709D0471FF5092C00D59D8B /* YXYConsultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0709D0461FF5092C00D59D8B /* YXYConsultViewController.swift */; };
+		0709D0491FF5094500D59D8B /* YXYMeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0709D0481FF5094500D59D8B /* YXYMeViewController.swift */; };
+		0709D04B1FF50E7500D59D8B /* YXYNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0709D04A1FF50E7500D59D8B /* YXYNavigationController.swift */; };
+		0709D04D1FF5164700D59D8B /* YxyImages.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0709D04C1FF5164700D59D8B /* YxyImages.xcassets */; };
 		075D0A0E1FF3B48900F54619 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 075D0A0D1FF3B48900F54619 /* AppDelegate.swift */; };
 		075D0A101FF3B48900F54619 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 075D0A0F1FF3B48900F54619 /* ViewController.swift */; };
 		075D0A231FF3B48900F54619 /* Yxy_SwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 075D0A221FF3B48900F54619 /* Yxy_SwiftTests.swift */; };
 		075D0A2E1FF3B48900F54619 /* Yxy_SwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 075D0A2D1FF3B48900F54619 /* Yxy_SwiftUITests.swift */; };
 		075D0A461FF4973B00F54619 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 075D0A401FF4973B00F54619 /* LaunchScreen.storyboard */; };
 		075D0A471FF4973B00F54619 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 075D0A421FF4973B00F54619 /* Main.storyboard */; };
-		075D0A481FF4973B00F54619 /* YxyImages.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 075D0A441FF4973B00F54619 /* YxyImages.xcassets */; };
 		075D0A491FF4973B00F54619 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 075D0A451FF4973B00F54619 /* Info.plist */; };
 /* End PBXBuildFile section */
 
@@ -35,6 +42,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0709D0381FF4FFD900D59D8B /* YXYTarBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YXYTarBarController.swift; sourceTree = "<group>"; };
+		0709D0401FF508D000D59D8B /* YXYHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YXYHomeViewController.swift; sourceTree = "<group>"; };
+		0709D0421FF508E400D59D8B /* YXYDiscoverViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YXYDiscoverViewController.swift; sourceTree = "<group>"; };
+		0709D0441FF5090E00D59D8B /* YXYRecordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YXYRecordViewController.swift; sourceTree = "<group>"; };
+		0709D0461FF5092C00D59D8B /* YXYConsultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YXYConsultViewController.swift; sourceTree = "<group>"; };
+		0709D0481FF5094500D59D8B /* YXYMeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YXYMeViewController.swift; sourceTree = "<group>"; };
+		0709D04A1FF50E7500D59D8B /* YXYNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YXYNavigationController.swift; sourceTree = "<group>"; };
+		0709D04C1FF5164700D59D8B /* YxyImages.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = YxyImages.xcassets; sourceTree = "<group>"; };
 		075D0A0A1FF3B48900F54619 /* Yxy-Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Yxy-Swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		075D0A0D1FF3B48900F54619 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		075D0A0F1FF3B48900F54619 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -46,7 +61,6 @@
 		075D0A2F1FF3B48900F54619 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		075D0A411FF4973B00F54619 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		075D0A431FF4973B00F54619 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		075D0A441FF4973B00F54619 /* YxyImages.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = YxyImages.xcassets; sourceTree = "<group>"; };
 		075D0A451FF4973B00F54619 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -75,6 +89,58 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0709D03A1FF506A800D59D8B /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				0709D03B1FF506FA00D59D8B /* Home */,
+				0709D03C1FF5070300D59D8B /* Discover */,
+				0709D03D1FF5072500D59D8B /* Record */,
+				0709D03E1FF5074500D59D8B /* Consult */,
+				0709D03F1FF5076300D59D8B /* Me */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		0709D03B1FF506FA00D59D8B /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				0709D0401FF508D000D59D8B /* YXYHomeViewController.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		0709D03C1FF5070300D59D8B /* Discover */ = {
+			isa = PBXGroup;
+			children = (
+				0709D0421FF508E400D59D8B /* YXYDiscoverViewController.swift */,
+			);
+			path = Discover;
+			sourceTree = "<group>";
+		};
+		0709D03D1FF5072500D59D8B /* Record */ = {
+			isa = PBXGroup;
+			children = (
+				0709D0441FF5090E00D59D8B /* YXYRecordViewController.swift */,
+			);
+			path = Record;
+			sourceTree = "<group>";
+		};
+		0709D03E1FF5074500D59D8B /* Consult */ = {
+			isa = PBXGroup;
+			children = (
+				0709D0461FF5092C00D59D8B /* YXYConsultViewController.swift */,
+			);
+			path = Consult;
+			sourceTree = "<group>";
+		};
+		0709D03F1FF5076300D59D8B /* Me */ = {
+			isa = PBXGroup;
+			children = (
+				0709D0481FF5094500D59D8B /* YXYMeViewController.swift */,
+			);
+			path = Me;
+			sourceTree = "<group>";
+		};
 		075D0A011FF3B48900F54619 = {
 			isa = PBXGroup;
 			children = (
@@ -98,6 +164,9 @@
 		075D0A0C1FF3B48900F54619 /* Yxy-Swift */ = {
 			isa = PBXGroup;
 			children = (
+				075D0A4B1FF4A0F000F54619 /* Base */,
+				0709D03A1FF506A800D59D8B /* Modules */,
+				075D0A4A1FF4A05F00F54619 /* Helpers */,
 				075D0A0D1FF3B48900F54619 /* AppDelegate.swift */,
 				075D0A0F1FF3B48900F54619 /* ViewController.swift */,
 				075D0A3F1FF4973B00F54619 /* SupportingFiles */,
@@ -126,12 +195,28 @@
 		075D0A3F1FF4973B00F54619 /* SupportingFiles */ = {
 			isa = PBXGroup;
 			children = (
-				075D0A441FF4973B00F54619 /* YxyImages.xcassets */,
 				075D0A451FF4973B00F54619 /* Info.plist */,
 				075D0A401FF4973B00F54619 /* LaunchScreen.storyboard */,
 				075D0A421FF4973B00F54619 /* Main.storyboard */,
+				0709D04C1FF5164700D59D8B /* YxyImages.xcassets */,
 			);
 			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		075D0A4A1FF4A05F00F54619 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		075D0A4B1FF4A0F000F54619 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				0709D0381FF4FFD900D59D8B /* YXYTarBarController.swift */,
+				0709D04A1FF50E7500D59D8B /* YXYNavigationController.swift */,
+			);
+			path = Base;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -196,6 +281,7 @@
 		075D0A021FF3B48900F54619 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = YXY;
 				LastSwiftUpdateCheck = 0920;
 				LastUpgradeCheck = 0920;
 				ORGANIZATIONNAME = "宋滨诚";
@@ -243,8 +329,8 @@
 			files = (
 				075D0A491FF4973B00F54619 /* Info.plist in Resources */,
 				075D0A461FF4973B00F54619 /* LaunchScreen.storyboard in Resources */,
+				0709D04D1FF5164700D59D8B /* YxyImages.xcassets in Resources */,
 				075D0A471FF4973B00F54619 /* Main.storyboard in Resources */,
-				075D0A481FF4973B00F54619 /* YxyImages.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,8 +355,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0709D0451FF5090E00D59D8B /* YXYRecordViewController.swift in Sources */,
+				0709D04B1FF50E7500D59D8B /* YXYNavigationController.swift in Sources */,
+				0709D0411FF508D000D59D8B /* YXYHomeViewController.swift in Sources */,
+				0709D0471FF5092C00D59D8B /* YXYConsultViewController.swift in Sources */,
+				0709D0431FF508E400D59D8B /* YXYDiscoverViewController.swift in Sources */,
+				0709D0391FF4FFD900D59D8B /* YXYTarBarController.swift in Sources */,
 				075D0A101FF3B48900F54619 /* ViewController.swift in Sources */,
 				075D0A0E1FF3B48900F54619 /* AppDelegate.swift in Sources */,
+				0709D0491FF5094500D59D8B /* YXYMeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
