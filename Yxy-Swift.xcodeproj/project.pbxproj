@@ -14,14 +14,13 @@
 		0709D0471FF5092C00D59D8B /* YXYConsultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0709D0461FF5092C00D59D8B /* YXYConsultViewController.swift */; };
 		0709D0491FF5094500D59D8B /* YXYMeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0709D0481FF5094500D59D8B /* YXYMeViewController.swift */; };
 		0709D04B1FF50E7500D59D8B /* YXYNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0709D04A1FF50E7500D59D8B /* YXYNavigationController.swift */; };
-		0709D04D1FF5164700D59D8B /* YxyImages.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0709D04C1FF5164700D59D8B /* YxyImages.xcassets */; };
 		075D0A0E1FF3B48900F54619 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 075D0A0D1FF3B48900F54619 /* AppDelegate.swift */; };
 		075D0A101FF3B48900F54619 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 075D0A0F1FF3B48900F54619 /* ViewController.swift */; };
 		075D0A231FF3B48900F54619 /* Yxy_SwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 075D0A221FF3B48900F54619 /* Yxy_SwiftTests.swift */; };
 		075D0A2E1FF3B48900F54619 /* Yxy_SwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 075D0A2D1FF3B48900F54619 /* Yxy_SwiftUITests.swift */; };
-		075D0A461FF4973B00F54619 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 075D0A401FF4973B00F54619 /* LaunchScreen.storyboard */; };
-		075D0A471FF4973B00F54619 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 075D0A421FF4973B00F54619 /* Main.storyboard */; };
-		075D0A491FF4973B00F54619 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 075D0A451FF4973B00F54619 /* Info.plist */; };
+		07CB9AD91FF60FE000A55C43 /* YxyImages.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0709D04C1FF5164700D59D8B /* YxyImages.xcassets */; };
+		07CB9ADA1FF60FE900A55C43 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 075D0A401FF4973B00F54619 /* LaunchScreen.storyboard */; };
+		07CB9ADB1FF60FF000A55C43 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 075D0A421FF4973B00F54619 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -327,10 +326,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				075D0A491FF4973B00F54619 /* Info.plist in Resources */,
-				075D0A461FF4973B00F54619 /* LaunchScreen.storyboard in Resources */,
-				0709D04D1FF5164700D59D8B /* YxyImages.xcassets in Resources */,
-				075D0A471FF4973B00F54619 /* Main.storyboard in Resources */,
+				07CB9ADB1FF60FF000A55C43 /* Main.storyboard in Resources */,
+				07CB9ADA1FF60FE900A55C43 /* LaunchScreen.storyboard in Resources */,
+				07CB9AD91FF60FE000A55C43 /* YxyImages.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

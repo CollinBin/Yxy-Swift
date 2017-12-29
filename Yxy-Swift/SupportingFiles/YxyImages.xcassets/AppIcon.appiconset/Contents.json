@@ -11,15 +11,14 @@
       "scale" : "3x"
     },
     {
-      "size" : "29x29",
       "idiom" : "iphone",
-      "filename" : "2018新年图标_87-1.png",
+      "size" : "29x29",
       "scale" : "2x"
     },
     {
       "size" : "29x29",
       "idiom" : "iphone",
-      "filename" : "2018新年图标_87.png",
+      "filename" : "iPhone_Setting_iOS5-11@3x.png",
       "scale" : "3x"
     },
     {
@@ -30,24 +29,25 @@
     {
       "size" : "40x40",
       "idiom" : "iphone",
-      "filename" : "2018新年图标_120.png",
+      "filename" : "iPhone_Spotlight_iOS7-11@3x.png",
       "scale" : "3x"
     },
     {
-      "idiom" : "iphone",
       "size" : "60x60",
+      "idiom" : "iphone",
+      "filename" : "iPhone_App_iOS7-11@2x.png",
       "scale" : "2x"
     },
     {
       "size" : "60x60",
       "idiom" : "iphone",
-      "filename" : "2018新年图标_180.png",
+      "filename" : "iPhone_App_iOS7-11@3x.png",
       "scale" : "3x"
     },
     {
       "size" : "1024x1024",
       "idiom" : "ios-marketing",
-      "filename" : "2018新年图标_1024.png",
+      "filename" : "iPhoneAppStore.png",
       "scale" : "1x"
     }
   ],
