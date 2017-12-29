@@ -13,7 +13,7 @@ class YXYRecordViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         title = "记录"
-        view.backgroundColor = UIColor.purple
+        view.backgroundColor = YXYViewBackgroundColor
     }
 
     override func didReceiveMemoryWarning() {

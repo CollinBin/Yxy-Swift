@@ -13,7 +13,7 @@ class YXYConsultViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         title = "咨询"
-        view.backgroundColor = UIColor.red
+        view.backgroundColor = YXYViewBackgroundColor
     }
 
     override func didReceiveMemoryWarning() {

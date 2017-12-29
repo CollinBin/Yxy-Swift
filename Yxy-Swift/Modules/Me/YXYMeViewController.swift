@@ -13,7 +13,7 @@ class YXYMeViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         title = "我的"
-        view.backgroundColor = UIColor.green
+        view.backgroundColor = YXYViewBackgroundColor
     }
 
     override func didReceiveMemoryWarning() {

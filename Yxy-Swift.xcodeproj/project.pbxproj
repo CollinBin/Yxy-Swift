@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0709D0391FF4FFD900D59D8B /* YXYTarBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0709D0381FF4FFD900D59D8B /* YXYTarBarController.swift */; };
 		0709D0411FF508D000D59D8B /* YXYHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0709D0401FF508D000D59D8B /* YXYHomeViewController.swift */; };
 		0709D0431FF508E400D59D8B /* YXYDiscoverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0709D0421FF508E400D59D8B /* YXYDiscoverViewController.swift */; };
 		0709D0451FF5090E00D59D8B /* YXYRecordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0709D0441FF5090E00D59D8B /* YXYRecordViewController.swift */; };
@@ -15,12 +14,16 @@
 		0709D0491FF5094500D59D8B /* YXYMeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0709D0481FF5094500D59D8B /* YXYMeViewController.swift */; };
 		0709D04B1FF50E7500D59D8B /* YXYNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0709D04A1FF50E7500D59D8B /* YXYNavigationController.swift */; };
 		075D0A0E1FF3B48900F54619 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 075D0A0D1FF3B48900F54619 /* AppDelegate.swift */; };
-		075D0A101FF3B48900F54619 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 075D0A0F1FF3B48900F54619 /* ViewController.swift */; };
 		075D0A231FF3B48900F54619 /* Yxy_SwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 075D0A221FF3B48900F54619 /* Yxy_SwiftTests.swift */; };
 		075D0A2E1FF3B48900F54619 /* Yxy_SwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 075D0A2D1FF3B48900F54619 /* Yxy_SwiftUITests.swift */; };
 		07CB9AD91FF60FE000A55C43 /* YxyImages.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0709D04C1FF5164700D59D8B /* YxyImages.xcassets */; };
 		07CB9ADA1FF60FE900A55C43 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 075D0A401FF4973B00F54619 /* LaunchScreen.storyboard */; };
 		07CB9ADB1FF60FF000A55C43 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 075D0A421FF4973B00F54619 /* Main.storyboard */; };
+		07CB9AE81FF634B900A55C43 /* UIScreen+Frame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07CB9AE71FF634B900A55C43 /* UIScreen+Frame.swift */; };
+		07CB9AEA1FF63AA100A55C43 /* YXYTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07CB9AE91FF63AA100A55C43 /* YXYTabBarController.swift */; };
+		07CB9AED1FF63CF600A55C43 /* UIView+Frame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07CB9AEC1FF63CF600A55C43 /* UIView+Frame.swift */; };
+		07CB9AF01FF6493A00A55C43 /* YXYStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07CB9AEF1FF6493A00A55C43 /* YXYStyle.swift */; };
+		07CB9AF21FF64DFF00A55C43 /* UIColor+Hex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07CB9AF11FF64DFF00A55C43 /* UIColor+Hex.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,7 +44,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0709D0381FF4FFD900D59D8B /* YXYTarBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YXYTarBarController.swift; sourceTree = "<group>"; };
 		0709D0401FF508D000D59D8B /* YXYHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YXYHomeViewController.swift; sourceTree = "<group>"; };
 		0709D0421FF508E400D59D8B /* YXYDiscoverViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YXYDiscoverViewController.swift; sourceTree = "<group>"; };
 		0709D0441FF5090E00D59D8B /* YXYRecordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YXYRecordViewController.swift; sourceTree = "<group>"; };
@@ -51,7 +53,6 @@
 		0709D04C1FF5164700D59D8B /* YxyImages.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = YxyImages.xcassets; sourceTree = "<group>"; };
 		075D0A0A1FF3B48900F54619 /* Yxy-Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Yxy-Swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		075D0A0D1FF3B48900F54619 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		075D0A0F1FF3B48900F54619 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		075D0A1E1FF3B48900F54619 /* Yxy-SwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Yxy-SwiftTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		075D0A221FF3B48900F54619 /* Yxy_SwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Yxy_SwiftTests.swift; sourceTree = "<group>"; };
 		075D0A241FF3B48900F54619 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -61,6 +62,11 @@
 		075D0A411FF4973B00F54619 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		075D0A431FF4973B00F54619 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		075D0A451FF4973B00F54619 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		07CB9AE71FF634B900A55C43 /* UIScreen+Frame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIScreen+Frame.swift"; sourceTree = "<group>"; };
+		07CB9AE91FF63AA100A55C43 /* YXYTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YXYTabBarController.swift; sourceTree = "<group>"; };
+		07CB9AEC1FF63CF600A55C43 /* UIView+Frame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Frame.swift"; sourceTree = "<group>"; };
+		07CB9AEF1FF6493A00A55C43 /* YXYStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YXYStyle.swift; sourceTree = "<group>"; };
+		07CB9AF11FF64DFF00A55C43 /* UIColor+Hex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Hex.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -163,11 +169,10 @@
 		075D0A0C1FF3B48900F54619 /* Yxy-Swift */ = {
 			isa = PBXGroup;
 			children = (
+				075D0A0D1FF3B48900F54619 /* AppDelegate.swift */,
 				075D0A4B1FF4A0F000F54619 /* Base */,
 				0709D03A1FF506A800D59D8B /* Modules */,
 				075D0A4A1FF4A05F00F54619 /* Helpers */,
-				075D0A0D1FF3B48900F54619 /* AppDelegate.swift */,
-				075D0A0F1FF3B48900F54619 /* ViewController.swift */,
 				075D0A3F1FF4973B00F54619 /* SupportingFiles */,
 			);
 			path = "Yxy-Swift";
@@ -195,9 +200,9 @@
 			isa = PBXGroup;
 			children = (
 				075D0A451FF4973B00F54619 /* Info.plist */,
+				0709D04C1FF5164700D59D8B /* YxyImages.xcassets */,
 				075D0A401FF4973B00F54619 /* LaunchScreen.storyboard */,
 				075D0A421FF4973B00F54619 /* Main.storyboard */,
-				0709D04C1FF5164700D59D8B /* YxyImages.xcassets */,
 			);
 			path = SupportingFiles;
 			sourceTree = "<group>";
@@ -205,6 +210,8 @@
 		075D0A4A1FF4A05F00F54619 /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
+				07CB9ADF1FF6316C00A55C43 /* Utils */,
+				07CB9ADE1FF6314900A55C43 /* Categories */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -212,10 +219,60 @@
 		075D0A4B1FF4A0F000F54619 /* Base */ = {
 			isa = PBXGroup;
 			children = (
-				0709D0381FF4FFD900D59D8B /* YXYTarBarController.swift */,
 				0709D04A1FF50E7500D59D8B /* YXYNavigationController.swift */,
+				07CB9AE91FF63AA100A55C43 /* YXYTabBarController.swift */,
 			);
 			path = Base;
+			sourceTree = "<group>";
+		};
+		07CB9ADE1FF6314900A55C43 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				07CB9AE11FF632AB00A55C43 /* UIKit */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		07CB9ADF1FF6316C00A55C43 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				07CB9AEF1FF6493A00A55C43 /* YXYStyle.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		07CB9AE11FF632AB00A55C43 /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				07CB9AEE1FF6488600A55C43 /* UIColor */,
+				07CB9AEB1FF63C9900A55C43 /* UIView */,
+				07CB9AE21FF632B600A55C43 /* UIScreen */,
+			);
+			path = UIKit;
+			sourceTree = "<group>";
+		};
+		07CB9AE21FF632B600A55C43 /* UIScreen */ = {
+			isa = PBXGroup;
+			children = (
+				07CB9AE71FF634B900A55C43 /* UIScreen+Frame.swift */,
+			);
+			path = UIScreen;
+			sourceTree = "<group>";
+		};
+		07CB9AEB1FF63C9900A55C43 /* UIView */ = {
+			isa = PBXGroup;
+			children = (
+				07CB9AEC1FF63CF600A55C43 /* UIView+Frame.swift */,
+			);
+			path = UIView;
+			sourceTree = "<group>";
+		};
+		07CB9AEE1FF6488600A55C43 /* UIColor */ = {
+			isa = PBXGroup;
+			children = (
+				07CB9AF11FF64DFF00A55C43 /* UIColor+Hex.swift */,
+			);
+			path = UIColor;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -355,11 +412,14 @@
 			files = (
 				0709D0451FF5090E00D59D8B /* YXYRecordViewController.swift in Sources */,
 				0709D04B1FF50E7500D59D8B /* YXYNavigationController.swift in Sources */,
+				07CB9AEA1FF63AA100A55C43 /* YXYTabBarController.swift in Sources */,
 				0709D0411FF508D000D59D8B /* YXYHomeViewController.swift in Sources */,
 				0709D0471FF5092C00D59D8B /* YXYConsultViewController.swift in Sources */,
+				07CB9AF01FF6493A00A55C43 /* YXYStyle.swift in Sources */,
 				0709D0431FF508E400D59D8B /* YXYDiscoverViewController.swift in Sources */,
-				0709D0391FF4FFD900D59D8B /* YXYTarBarController.swift in Sources */,
-				075D0A101FF3B48900F54619 /* ViewController.swift in Sources */,
+				07CB9AED1FF63CF600A55C43 /* UIView+Frame.swift in Sources */,
+				07CB9AE81FF634B900A55C43 /* UIScreen+Frame.swift in Sources */,
+				07CB9AF21FF64DFF00A55C43 /* UIColor+Hex.swift in Sources */,
 				075D0A0E1FF3B48900F54619 /* AppDelegate.swift in Sources */,
 				0709D0491FF5094500D59D8B /* YXYMeViewController.swift in Sources */,
 			);

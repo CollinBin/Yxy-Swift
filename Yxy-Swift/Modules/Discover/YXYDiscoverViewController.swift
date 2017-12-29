@@ -13,7 +13,7 @@ class YXYDiscoverViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         navigationItem.title = "发现"
-        view.backgroundColor = UIColor.blue
+        view.backgroundColor = YXYViewBackgroundColor
     }
 
     override func didReceiveMemoryWarning() {

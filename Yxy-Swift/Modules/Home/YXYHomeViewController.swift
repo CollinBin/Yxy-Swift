@@ -12,8 +12,9 @@ class YXYHomeViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        navigationItem.title = "首页"
-        view.backgroundColor = UIColor.white
+        
+        title = "首页"
+        view.backgroundColor = YXYViewBackgroundColor
     }
 
     override func didReceiveMemoryWarning() {
