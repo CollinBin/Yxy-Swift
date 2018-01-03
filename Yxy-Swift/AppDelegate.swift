@@ -11,15 +11,14 @@ import UIKit
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
-    var mWindow: UIWindow?
+    var window: UIWindow?
     var mTabBarController: YXYTabBarController?
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        mWindow = UIWindow(frame: UIScreen.main.bounds)
-        mWindow?.backgroundColor = UIColor.white
-        mWindow?.makeKeyAndVisible()
+        window = UIWindow(frame: UIScreen.main.bounds)
+        window?.makeKeyAndVisible()
         mTabBarController = YXYTabBarController()
-        mWindow?.rootViewController = UINavigationController(rootViewController: mTabBarController!)
+        window?.rootViewController = mTabBarController
         return true
     }
 

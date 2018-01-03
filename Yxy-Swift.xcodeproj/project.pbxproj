@@ -24,6 +24,8 @@
 		07CB9AED1FF63CF600A55C43 /* UIView+Frame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07CB9AEC1FF63CF600A55C43 /* UIView+Frame.swift */; };
 		07CB9AF01FF6493A00A55C43 /* YXYStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07CB9AEF1FF6493A00A55C43 /* YXYStyle.swift */; };
 		07CB9AF21FF64DFF00A55C43 /* UIColor+Hex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07CB9AF11FF64DFF00A55C43 /* UIColor+Hex.swift */; };
+		B049A8EC62D1644C40B74213 /* Pods_Yxy_SwiftTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E65421B81099E6C95AE3A52F /* Pods_Yxy_SwiftTests.framework */; };
+		EC69BE39A06EABE21275ADA4 /* Pods_Yxy_Swift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CECCF99F82FC8C3674C56A3 /* Pods_Yxy_Swift.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +69,12 @@
 		07CB9AEC1FF63CF600A55C43 /* UIView+Frame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Frame.swift"; sourceTree = "<group>"; };
 		07CB9AEF1FF6493A00A55C43 /* YXYStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YXYStyle.swift; sourceTree = "<group>"; };
 		07CB9AF11FF64DFF00A55C43 /* UIColor+Hex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Hex.swift"; sourceTree = "<group>"; };
+		0CECCF99F82FC8C3674C56A3 /* Pods_Yxy_Swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Yxy_Swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		54E910A8B17072E399120449 /* Pods-Yxy-SwiftTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Yxy-SwiftTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Yxy-SwiftTests/Pods-Yxy-SwiftTests.debug.xcconfig"; sourceTree = "<group>"; };
+		868A9B54083833230B77F70B /* Pods-Yxy-Swift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Yxy-Swift.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Yxy-Swift/Pods-Yxy-Swift.debug.xcconfig"; sourceTree = "<group>"; };
+		B3047A3D4CAA13514C97FE44 /* Pods-Yxy-Swift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Yxy-Swift.release.xcconfig"; path = "Pods/Target Support Files/Pods-Yxy-Swift/Pods-Yxy-Swift.release.xcconfig"; sourceTree = "<group>"; };
+		E65421B81099E6C95AE3A52F /* Pods_Yxy_SwiftTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Yxy_SwiftTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCC4352A802E3BB1E10715A2 /* Pods-Yxy-SwiftTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Yxy-SwiftTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Yxy-SwiftTests/Pods-Yxy-SwiftTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC69BE39A06EABE21275ADA4 /* Pods_Yxy_Swift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B049A8EC62D1644C40B74213 /* Pods_Yxy_SwiftTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -153,6 +163,8 @@
 				075D0A211FF3B48900F54619 /* Yxy-SwiftTests */,
 				075D0A2C1FF3B48900F54619 /* Yxy-SwiftUITests */,
 				075D0A0B1FF3B48900F54619 /* Products */,
+				C1462984CC2AF5925D4A8326 /* Pods */,
+				7F12E33F03096B38E84179B1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -275,6 +287,26 @@
 			path = UIColor;
 			sourceTree = "<group>";
 		};
+		7F12E33F03096B38E84179B1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0CECCF99F82FC8C3674C56A3 /* Pods_Yxy_Swift.framework */,
+				E65421B81099E6C95AE3A52F /* Pods_Yxy_SwiftTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C1462984CC2AF5925D4A8326 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				868A9B54083833230B77F70B /* Pods-Yxy-Swift.debug.xcconfig */,
+				B3047A3D4CAA13514C97FE44 /* Pods-Yxy-Swift.release.xcconfig */,
+				54E910A8B17072E399120449 /* Pods-Yxy-SwiftTests.debug.xcconfig */,
+				FCC4352A802E3BB1E10715A2 /* Pods-Yxy-SwiftTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -282,9 +314,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 075D0A321FF3B48900F54619 /* Build configuration list for PBXNativeTarget "Yxy-Swift" */;
 			buildPhases = (
+				550CD8A25B5CFFBB69FDE058 /* [CP] Check Pods Manifest.lock */,
 				075D0A061FF3B48900F54619 /* Sources */,
 				075D0A071FF3B48900F54619 /* Frameworks */,
 				075D0A081FF3B48900F54619 /* Resources */,
+				8312EBBAB07324ECCA27584B /* [CP] Embed Pods Frameworks */,
+				FA1F92943A7E4CEC387467C4 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -299,9 +334,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 075D0A351FF3B48900F54619 /* Build configuration list for PBXNativeTarget "Yxy-SwiftTests" */;
 			buildPhases = (
+				714EA2236FB38C997E19CB4C /* [CP] Check Pods Manifest.lock */,
 				075D0A1A1FF3B48900F54619 /* Sources */,
 				075D0A1B1FF3B48900F54619 /* Frameworks */,
 				075D0A1C1FF3B48900F54619 /* Resources */,
+				E81E40AF8E214EDBFFB8DC51 /* [CP] Embed Pods Frameworks */,
+				946F1F4648B119C0503C4E26 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -404,6 +442,108 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		550CD8A25B5CFFBB69FDE058 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Yxy-Swift-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		714EA2236FB38C997E19CB4C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Yxy-SwiftTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8312EBBAB07324ECCA27584B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Yxy-Swift/Pods-Yxy-Swift-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Yxy-Swift/Pods-Yxy-Swift-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		946F1F4648B119C0503C4E26 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Yxy-SwiftTests/Pods-Yxy-SwiftTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E81E40AF8E214EDBFFB8DC51 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Yxy-SwiftTests/Pods-Yxy-SwiftTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FA1F92943A7E4CEC387467C4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Yxy-Swift/Pods-Yxy-Swift-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		075D0A061FF3B48900F54619 /* Sources */ = {
@@ -585,6 +725,7 @@
 		};
 		075D0A331FF3B48900F54619 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 868A9B54083833230B77F70B /* Pods-Yxy-Swift.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -601,6 +742,7 @@
 		};
 		075D0A341FF3B48900F54619 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B3047A3D4CAA13514C97FE44 /* Pods-Yxy-Swift.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -617,6 +759,7 @@
 		};
 		075D0A361FF3B48900F54619 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 54E910A8B17072E399120449 /* Pods-Yxy-SwiftTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -634,6 +777,7 @@
 		};
 		075D0A371FF3B48900F54619 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FCC4352A802E3BB1E10715A2 /* Pods-Yxy-SwiftTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";

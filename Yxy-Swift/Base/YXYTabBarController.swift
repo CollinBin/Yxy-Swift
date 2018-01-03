@@ -8,7 +8,7 @@
 
 import UIKit
 
-class YXYTabBarController: UITabBarController {
+class YXYTabBarController: UITabBarController, UITabBarControllerDelegate {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -21,15 +21,24 @@ class YXYTabBarController: UITabBarController {
         let recordNavc = addChildViewController(childViewController: YXYRecordViewController(), title: "记录", normalImageName: "Tab-Record", selectedImageName: "Tab-Record-Selected")
         let consultNavc = addChildViewController(childViewController: YXYConsultViewController(), title: "咨询", normalImageName: "Tab-Consult", selectedImageName: "Tab-Consult-Selected")
         let meNavc = addChildViewController(childViewController: YXYMeViewController(), title: "我的", normalImageName: "Tab-Me", selectedImageName: "Tab-Me-Selected")
-        self.viewControllers = [homeNavc, discoverNavc, recordNavc, consultNavc, meNavc]
-        self.tabBar.tintColor = YXYThemeColor
+        viewControllers = [homeNavc, discoverNavc, recordNavc, consultNavc, meNavc]
+        tabBar.tintColor = YXYThemeColor
+        tabBar.barTintColor = UIColor.white
     }
     
     func addChildViewController(childViewController: UIViewController, title: String, normalImageName: String, selectedImageName: String) -> YXYNavigationController {
-        let tabBarItem = UITabBarItem(title: title, image: UIImage (named: normalImageName), selectedImage: UIImage (named: selectedImageName))
+        let tabBarItem = UITabBarItem(title: title, image: UIImage(named: normalImageName)?.withRenderingMode(.alwaysOriginal), selectedImage: UIImage(named: selectedImageName)?.withRenderingMode(.alwaysOriginal))
         tabBarItem.titlePositionAdjustment = UIOffsetMake(0, -2)
         childViewController.tabBarItem = tabBarItem
         return YXYNavigationController(rootViewController: childViewController)
+    }
+    
+    public func tabBarController(_ tabBarController: UITabBarController, shouldSelect viewController: UIViewController) -> Bool {
+        return true
+    }
+    
+    public func tabBarController(_ tabBarController: UITabBarController, didSelect viewController: UIViewController) {
+        
     }
     
 }
