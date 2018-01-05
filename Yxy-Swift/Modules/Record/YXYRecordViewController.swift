@@ -8,7 +8,7 @@
 
 import UIKit
 
-class YXYRecordViewController: UIViewController {
+class YXYRecordViewController: YXYViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

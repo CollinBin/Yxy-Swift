@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0709D0411FF508D000D59D8B /* YXYHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0709D0401FF508D000D59D8B /* YXYHomeViewController.swift */; };
 		0709D0431FF508E400D59D8B /* YXYDiscoverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0709D0421FF508E400D59D8B /* YXYDiscoverViewController.swift */; };
 		0709D0451FF5090E00D59D8B /* YXYRecordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0709D0441FF5090E00D59D8B /* YXYRecordViewController.swift */; };
 		0709D0471FF5092C00D59D8B /* YXYConsultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0709D0461FF5092C00D59D8B /* YXYConsultViewController.swift */; };
@@ -24,6 +23,13 @@
 		07CB9AED1FF63CF600A55C43 /* UIView+Frame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07CB9AEC1FF63CF600A55C43 /* UIView+Frame.swift */; };
 		07CB9AF01FF6493A00A55C43 /* YXYStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07CB9AEF1FF6493A00A55C43 /* YXYStyle.swift */; };
 		07CB9AF21FF64DFF00A55C43 /* UIColor+Hex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07CB9AF11FF64DFF00A55C43 /* UIColor+Hex.swift */; };
+		07D9914E1FFDFE2B00B74583 /* YXYBaseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07D9914D1FFDFE2B00B74583 /* YXYBaseModel.swift */; };
+		07D991511FFDFFC000B74583 /* YXYHttpRequestManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07D991501FFDFFC000B74583 /* YXYHttpRequestManager.swift */; };
+		07D991531FFE207D00B74583 /* YXYApiManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07D991521FFE207D00B74583 /* YXYApiManager.swift */; };
+		07D991641FFE3B6D00B74583 /* YXYMD5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07D991631FFE3B6D00B74583 /* YXYMD5.swift */; };
+		07D991681FFF446600B74583 /* YXYWelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07D991671FFF446600B74583 /* YXYWelcomeViewController.swift */; };
+		07DE096C1FFF6E8D00D1E394 /* YXYViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07DE096B1FFF6E8D00D1E394 /* YXYViewController.swift */; };
+		07DE09741FFF7B6800D1E394 /* YXYHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07DE09731FFF7B6800D1E394 /* YXYHomeViewController.swift */; };
 		B049A8EC62D1644C40B74213 /* Pods_Yxy_SwiftTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E65421B81099E6C95AE3A52F /* Pods_Yxy_SwiftTests.framework */; };
 		EC69BE39A06EABE21275ADA4 /* Pods_Yxy_Swift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CECCF99F82FC8C3674C56A3 /* Pods_Yxy_Swift.framework */; };
 /* End PBXBuildFile section */
@@ -46,7 +52,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0709D0401FF508D000D59D8B /* YXYHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YXYHomeViewController.swift; sourceTree = "<group>"; };
 		0709D0421FF508E400D59D8B /* YXYDiscoverViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YXYDiscoverViewController.swift; sourceTree = "<group>"; };
 		0709D0441FF5090E00D59D8B /* YXYRecordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YXYRecordViewController.swift; sourceTree = "<group>"; };
 		0709D0461FF5092C00D59D8B /* YXYConsultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YXYConsultViewController.swift; sourceTree = "<group>"; };
@@ -69,6 +74,17 @@
 		07CB9AEC1FF63CF600A55C43 /* UIView+Frame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Frame.swift"; sourceTree = "<group>"; };
 		07CB9AEF1FF6493A00A55C43 /* YXYStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YXYStyle.swift; sourceTree = "<group>"; };
 		07CB9AF11FF64DFF00A55C43 /* UIColor+Hex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Hex.swift"; sourceTree = "<group>"; };
+		07D991481FFDFDA100B74583 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		07D9914A1FFDFDA700B74583 /* ObjectMapper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = ObjectMapper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		07D9914C1FFDFDAD00B74583 /* AlamofireObjectMapper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = AlamofireObjectMapper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		07D9914D1FFDFE2B00B74583 /* YXYBaseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YXYBaseModel.swift; sourceTree = "<group>"; };
+		07D991501FFDFFC000B74583 /* YXYHttpRequestManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YXYHttpRequestManager.swift; sourceTree = "<group>"; };
+		07D991521FFE207D00B74583 /* YXYApiManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YXYApiManager.swift; sourceTree = "<group>"; };
+		07D991631FFE3B6D00B74583 /* YXYMD5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YXYMD5.swift; sourceTree = "<group>"; };
+		07D991651FFE3D7300B74583 /* Yxy-Swift-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Yxy-Swift-Bridging-Header.h"; sourceTree = "<group>"; };
+		07D991671FFF446600B74583 /* YXYWelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YXYWelcomeViewController.swift; sourceTree = "<group>"; };
+		07DE096B1FFF6E8D00D1E394 /* YXYViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YXYViewController.swift; sourceTree = "<group>"; };
+		07DE09731FFF7B6800D1E394 /* YXYHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YXYHomeViewController.swift; sourceTree = "<group>"; };
 		0CECCF99F82FC8C3674C56A3 /* Pods_Yxy_Swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Yxy_Swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		54E910A8B17072E399120449 /* Pods-Yxy-SwiftTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Yxy-SwiftTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Yxy-SwiftTests/Pods-Yxy-SwiftTests.debug.xcconfig"; sourceTree = "<group>"; };
 		868A9B54083833230B77F70B /* Pods-Yxy-Swift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Yxy-Swift.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Yxy-Swift/Pods-Yxy-Swift.debug.xcconfig"; sourceTree = "<group>"; };
@@ -107,6 +123,7 @@
 		0709D03A1FF506A800D59D8B /* Modules */ = {
 			isa = PBXGroup;
 			children = (
+				07D991661FFF42E800B74583 /* Register&Login */,
 				0709D03B1FF506FA00D59D8B /* Home */,
 				0709D03C1FF5070300D59D8B /* Discover */,
 				0709D03D1FF5072500D59D8B /* Record */,
@@ -119,7 +136,7 @@
 		0709D03B1FF506FA00D59D8B /* Home */ = {
 			isa = PBXGroup;
 			children = (
-				0709D0401FF508D000D59D8B /* YXYHomeViewController.swift */,
+				07DE09731FFF7B6800D1E394 /* YXYHomeViewController.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -184,7 +201,9 @@
 				075D0A0D1FF3B48900F54619 /* AppDelegate.swift */,
 				075D0A4B1FF4A0F000F54619 /* Base */,
 				0709D03A1FF506A800D59D8B /* Modules */,
+				07D991441FFDCEBE00B74583 /* Model */,
 				075D0A4A1FF4A05F00F54619 /* Helpers */,
+				07D9914F1FFDFF7600B74583 /* Api */,
 				075D0A3F1FF4973B00F54619 /* SupportingFiles */,
 			);
 			path = "Yxy-Swift";
@@ -222,6 +241,8 @@
 		075D0A4A1FF4A05F00F54619 /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
+				07D991651FFE3D7300B74583 /* Yxy-Swift-Bridging-Header.h */,
+				07D991541FFE229800B74583 /* Third */,
 				07CB9ADF1FF6316C00A55C43 /* Utils */,
 				07CB9ADE1FF6314900A55C43 /* Categories */,
 			);
@@ -233,6 +254,7 @@
 			children = (
 				0709D04A1FF50E7500D59D8B /* YXYNavigationController.swift */,
 				07CB9AE91FF63AA100A55C43 /* YXYTabBarController.swift */,
+				07DE096B1FFF6E8D00D1E394 /* YXYViewController.swift */,
 			);
 			path = Base;
 			sourceTree = "<group>";
@@ -249,6 +271,7 @@
 			isa = PBXGroup;
 			children = (
 				07CB9AEF1FF6493A00A55C43 /* YXYStyle.swift */,
+				07D991631FFE3B6D00B74583 /* YXYMD5.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -287,9 +310,44 @@
 			path = UIColor;
 			sourceTree = "<group>";
 		};
+		07D991441FFDCEBE00B74583 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				07D9914D1FFDFE2B00B74583 /* YXYBaseModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		07D9914F1FFDFF7600B74583 /* Api */ = {
+			isa = PBXGroup;
+			children = (
+				07D991501FFDFFC000B74583 /* YXYHttpRequestManager.swift */,
+				07D991521FFE207D00B74583 /* YXYApiManager.swift */,
+			);
+			path = Api;
+			sourceTree = "<group>";
+		};
+		07D991541FFE229800B74583 /* Third */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Third;
+			sourceTree = "<group>";
+		};
+		07D991661FFF42E800B74583 /* Register&Login */ = {
+			isa = PBXGroup;
+			children = (
+				07D991671FFF446600B74583 /* YXYWelcomeViewController.swift */,
+			);
+			path = "Register&Login";
+			sourceTree = "<group>";
+		};
 		7F12E33F03096B38E84179B1 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				07D9914C1FFDFDAD00B74583 /* AlamofireObjectMapper.framework */,
+				07D9914A1FFDFDA700B74583 /* ObjectMapper.framework */,
+				07D991481FFDFDA100B74583 /* Alamofire.framework */,
 				0CECCF99F82FC8C3674C56A3 /* Pods_Yxy_Swift.framework */,
 				E65421B81099E6C95AE3A52F /* Pods_Yxy_SwiftTests.framework */,
 			);
@@ -382,6 +440,7 @@
 				TargetAttributes = {
 					075D0A091FF3B48900F54619 = {
 						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 0920;
 						ProvisioningStyle = Automatic;
 					};
 					075D0A1D1FF3B48900F54619 = {
@@ -488,10 +547,22 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-Yxy-Swift/Pods-Yxy-Swift-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireObjectMapper/AlamofireObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/MJRefresh/MJRefresh.framework",
+				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/TAKUUID/TAKUUID.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJRefresh.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TAKUUID.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -553,15 +624,21 @@
 				0709D0451FF5090E00D59D8B /* YXYRecordViewController.swift in Sources */,
 				0709D04B1FF50E7500D59D8B /* YXYNavigationController.swift in Sources */,
 				07CB9AEA1FF63AA100A55C43 /* YXYTabBarController.swift in Sources */,
-				0709D0411FF508D000D59D8B /* YXYHomeViewController.swift in Sources */,
+				07D991511FFDFFC000B74583 /* YXYHttpRequestManager.swift in Sources */,
+				07DE09741FFF7B6800D1E394 /* YXYHomeViewController.swift in Sources */,
 				0709D0471FF5092C00D59D8B /* YXYConsultViewController.swift in Sources */,
+				07D991531FFE207D00B74583 /* YXYApiManager.swift in Sources */,
+				07D991641FFE3B6D00B74583 /* YXYMD5.swift in Sources */,
 				07CB9AF01FF6493A00A55C43 /* YXYStyle.swift in Sources */,
 				0709D0431FF508E400D59D8B /* YXYDiscoverViewController.swift in Sources */,
 				07CB9AED1FF63CF600A55C43 /* UIView+Frame.swift in Sources */,
 				07CB9AE81FF634B900A55C43 /* UIScreen+Frame.swift in Sources */,
 				07CB9AF21FF64DFF00A55C43 /* UIColor+Hex.swift in Sources */,
+				07DE096C1FFF6E8D00D1E394 /* YXYViewController.swift in Sources */,
+				07D991681FFF446600B74583 /* YXYWelcomeViewController.swift in Sources */,
 				075D0A0E1FF3B48900F54619 /* AppDelegate.swift in Sources */,
 				0709D0491FF5094500D59D8B /* YXYMeViewController.swift in Sources */,
+				07D9914E1FFDFE2B00B74583 /* YXYBaseModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -728,6 +805,7 @@
 			baseConfigurationReference = 868A9B54083833230B77F70B /* Pods-Yxy-Swift.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = KV396W2E95;
 				INFOPLIST_FILE = "Yxy-Swift/SupportingFiles/Info.plist";
@@ -735,8 +813,11 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Drcuiyutao.Yxy-Swift";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Yxy-Swift/Helpers/Yxy-Swift-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = 1;
+				USER_HEADER_SEARCH_PATHS = "$(PODS_ROOT)/**";
 			};
 			name = Debug;
 		};
@@ -745,6 +826,7 @@
 			baseConfigurationReference = B3047A3D4CAA13514C97FE44 /* Pods-Yxy-Swift.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = KV396W2E95;
 				INFOPLIST_FILE = "Yxy-Swift/SupportingFiles/Info.plist";
@@ -752,8 +834,10 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Drcuiyutao.Yxy-Swift";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Yxy-Swift/Helpers/Yxy-Swift-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = 1;
+				USER_HEADER_SEARCH_PATHS = "$(PODS_ROOT)/**";
 			};
 			name = Release;
 		};

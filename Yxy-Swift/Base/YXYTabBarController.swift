@@ -24,6 +24,7 @@ class YXYTabBarController: UITabBarController, UITabBarControllerDelegate {
         viewControllers = [homeNavc, discoverNavc, recordNavc, consultNavc, meNavc]
         tabBar.tintColor = YXYThemeColor
         tabBar.barTintColor = UIColor.white
+        tabBar.isTranslucent = false
     }
     
     func addChildViewController(childViewController: UIViewController, title: String, normalImageName: String, selectedImageName: String) -> YXYNavigationController {

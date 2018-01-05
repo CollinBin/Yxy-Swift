@@ -8,7 +8,7 @@
 
 import UIKit
 
-class YXYDiscoverViewController: UIViewController {
+class YXYDiscoverViewController: YXYViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import TAKUUID
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -15,6 +16,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     var mTabBarController: YXYTabBarController?
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
+        
+        TAKUUIDStorage.sharedInstance().accessGroup = "12ABCD3E4F.shared"
+        
         window = UIWindow(frame: UIScreen.main.bounds)
         window?.makeKeyAndVisible()
         mTabBarController = YXYTabBarController()

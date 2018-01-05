@@ -8,7 +8,7 @@
 
 import UIKit
 
-class YXYConsultViewController: UIViewController {
+class YXYConsultViewController: YXYViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
