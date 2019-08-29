@@ -377,7 +377,6 @@
 				075D0A071FF3B48900F54619 /* Frameworks */,
 				075D0A081FF3B48900F54619 /* Resources */,
 				8312EBBAB07324ECCA27584B /* [CP] Embed Pods Frameworks */,
-				FA1F92943A7E4CEC387467C4 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -396,8 +395,6 @@
 				075D0A1A1FF3B48900F54619 /* Sources */,
 				075D0A1B1FF3B48900F54619 /* Frameworks */,
 				075D0A1C1FF3B48900F54619 /* Resources */,
-				E81E40AF8E214EDBFFB8DC51 /* [CP] Embed Pods Frameworks */,
-				946F1F4648B119C0503C4E26 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -545,7 +542,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-Yxy-Swift/Pods-Yxy-Swift-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-Yxy-Swift/Pods-Yxy-Swift-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/AlamofireObjectMapper/AlamofireObjectMapper.framework",
 				"${BUILT_PRODUCTS_DIR}/MJRefresh/MJRefresh.framework",
@@ -566,52 +563,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Yxy-Swift/Pods-Yxy-Swift-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		946F1F4648B119C0503C4E26 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Yxy-SwiftTests/Pods-Yxy-SwiftTests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		E81E40AF8E214EDBFFB8DC51 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Yxy-SwiftTests/Pods-Yxy-SwiftTests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		FA1F92943A7E4CEC387467C4 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Yxy-Swift/Pods-Yxy-Swift-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Yxy-Swift/Pods-Yxy-Swift-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
